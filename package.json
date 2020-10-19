@@ -1,6 +1,6 @@
 {
-  "name": "matic-0xbtc-wallet",
-  "description": "Web wallet for 0xBTC for the Ethereum and Matic Networks",
+  "name": "truespec-led-website",
+  "description": "Website frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,9 +10,7 @@
     "deploy": "node deploy.js"
   },
   "dependencies": {
-    "@maticnetwork/maticjs": "^2.0.6-beta.0",
-    "@maticnetwork/walletconnect-provider": "0.0.1-beta.1",
-    "bignumber.js": "^9.0.0",
+   
     "core-js": "^2.6.5",
     "portal-vue": "^2.1.0",
     "tailwindcss": "^1.0.0-beta.4",
