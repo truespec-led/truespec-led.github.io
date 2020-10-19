@@ -555,9 +555,9 @@ export default {
         var bridgeType = CryptoAssets.assets[this.assetName]['Bridge'];
 
         var options =   {
-          //fastProof: true,
+          fastProof: true,
           from: userAddress,
-        //  gasPrice: 500000000000
+          gasPrice: 500000000000
         }
 
           if(bridgeType == 'pos'){
