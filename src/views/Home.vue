@@ -12,14 +12,12 @@
 
 			<div class="pl-4 flex items-center">
 				<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#">
-					<!--Icon from: http://www.potlabicons.com/ -->
-					<svg class="h-8 fill-current inline" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.005 512.005">
-					<rect fill="#2a2a31" x="16.539" y="425.626" width="479.767" height="50.502" transform="matrix(1,0,0,1,0,0)" />
-					<path class="plane-take-off" d=" M 510.7 189.151 C 505.271 168.95 484.565 156.956 464.365 162.385 L 330.156 198.367 L 155.924 35.878 L 107.19 49.008 L 211.729 230.183 L 86.232 263.767 L 36.614 224.754 L 0 234.603 L 45.957 314.27 L 65.274 347.727 L 105.802 336.869 L 240.011 300.886 L 349.726 271.469 L 483.935 235.486 C 504.134 230.057 516.129 209.352 510.7 189.151 Z "/>
-					</svg> LANDING
+
+				   TRUE SPEC
 				</a>
 			</div>
 
+			<!--
 			<div class="block lg:hidden pr-4">
 				<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
 					<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
@@ -40,6 +38,7 @@
 				</ul>
 				<button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Action</button>
 			</div>
+		-->
 		</div>
 
 		<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
@@ -51,21 +50,21 @@
 	<!--Hero-->
 	<div class="pt-24">
 
-		<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+		<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center  mb-8">
 			<!--Left Col-->
 			<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-				<p class="uppercase tracking-loose w-full">What business are you?</p>
-				<h1 class="my-4 text-5xl font-bold leading-tight">Main Hero Message to sell yourself!</h1>
-				<p class="leading-normal text-2xl mb-8">Sub-hero message, not too long and not too short. Make it just right!</p>
+				<p class="hidden uppercase tracking-loose w-full"> </p>
+				<h1 class="my-4 text-5xl font-bold leading-tight">Your plants deserve the best.</h1>
+				<p class="hidden leading-normal text-2xl mb-8"> </p>
 
 
 
-				<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>
+				<button class=" hidden mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>
 
 			</div>
 			<!--Right Col-->
-			<div class="w-full md:w-3/5 py-6 text-center">
-				<img class="w-full md:w-4/5 z-50" src="hero.png">
+			<div class="w-full md:w-3/5 py-6 flex justify-center">
+				<img class=" " style="width:200px" src="@/assets/img/sun.png">
 			</div>
 
 		</div>
@@ -92,17 +91,17 @@
 
 	<section class="bg-white border-b py-8">
 		<div class="container max-w-5xl mx-auto m-8">
-			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Title</h1>
+			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">True Spec G1800 Gen 3 670w LED</h1>
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="w-5/6 sm:w-1/2 p-6">
-					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-					<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
+					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Designed by Growers in Detroit</h3>
+					<p class="text-gray-600 mb-8">With 5'x 5' coverage and full Kalvin spectrum of 4000, TrueSpec helps you maximize your growth per light.<br /><br />
 
-					Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+			 </p>
 
 				</div>
 				<div class="w-full sm:w-1/2 p-6">
@@ -202,9 +201,8 @@
 				</div>
 				<div class="w-full sm:w-1/2 p-6 mt-6">
 					<div class="align-middle">
-						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Lorem ipsum dolor sit amet</h3>
-						<p class="text-gray-600 mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at ipsum eu nunc commodo posuere et sit amet ligula.<br /><br />
-						Images from: <a class="text-orange-500 underline" href="https://undraw.co/">undraw.co</a></p>
+						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Use the leading technology</h3>
+						<p class="text-gray-600 mb-8">The Samsung 301H LEDs inside of the G1800 are among the most advanced available today to maximize energy efficiency and minimize your monthly electrical costs.     </p>
 					</div>
 				</div>
 
@@ -212,10 +210,36 @@
 		</div>
 	</section>
 
-
-
-
 	<section class="bg-white border-b py-8">
+
+		<div class="container mx-auto flex flex-wrap pt-4 px-8   text-black justify-center"  >
+			<div style="width:300px;" class="overflow-hidden">
+			<carousel :per-page="1" :autoplay="true" :navigationEnabled="false" :paginationEnabled="true">
+
+			<slide>
+						<img src="@/assets/img/lighting_1.jpg" class=" " style="height:350px" />
+			</slide>
+
+
+			<slide>
+						<img src="@/assets/img/lighting_2.jpg" class=" " style="height:350px"  />
+			</slide>
+
+			<slide>
+
+					<img src="@/assets/img/lighting_3.jpg"  class=" " style="height:350px" />
+
+			</slide>
+			</carousel>
+
+					</div>
+
+				</div>
+
+	</section>
+
+
+	<section class="hidden bg-white border-b py-8">
 
 		<div class="container mx-auto flex flex-wrap pt-4 pb-12">
 
@@ -284,7 +308,7 @@
 
 	</section>
 
-	<section class="bg-gray-100 py-8">
+	<section class="hidden bg-gray-100 py-8">
 
 
 
@@ -385,14 +409,14 @@
 
 	<section class="container mx-auto text-center py-6 mb-12">
 
-		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Call to Action</h1>
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Inquire for stock & leadtime</h1>
 		<div class="w-full mb-4">
 			<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
 		</div>
 
-		<h3 class="my-4 text-3xl leading-tight">Main Hero Message to sell yourself!</h3>
+		<h3 class="my-4 text-3xl leading-tight">Limited supplies will not last</h3>
 
-		<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Action!</button>
+		<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Contact us now</button>
 
 	</section>
 
@@ -508,13 +532,16 @@
 
 <script>
 
-
+import Vue from 'vue';
+import VueCarousel from 'vue-carousel';
+Vue.use(VueCarousel);
+import { Carousel, Slide } from 'vue-carousel';
 
 
 export default {
   name: 'Home',
   components: {
-
+		Carousel,Slide
   },
   data () {
     return {
