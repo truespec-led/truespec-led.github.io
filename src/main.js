@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import PortalVue from 'portal-vue'
+import VueTailwind from 'vue-tailwind'
 import App from './App.vue'
 import router from './router'
 
@@ -8,7 +8,7 @@ import './main.css'
 
 Vue.config.productionTip = false
 
-Vue.use(PortalVue)
+Vue.use(VueTailwind)
 
 new Vue({
   router,

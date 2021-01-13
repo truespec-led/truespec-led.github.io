@@ -1,11 +1,11 @@
 <template>
   <div data-collapse="small" data-animation="default" data-duration="400" class="navbar w-nav">
-    <div class="bg-gray-900 lg:bg-transparent">
-    <div class="container w-container">
-      <div class="w-full w-clearfix">
-        <a href="/" class="brand w-nav-brand w--current">
-          <img src="@/assets/logo.png" height="35"  alt="" class="w-6 m-2">
-          <div class=" text-block-10">TrueSpec</div>
+    <div class=" bg-transparent " style="min-height:50px;">
+    <div class="container w-container" style="margin 0 auto;">
+      <div class="w-full w-clearfix  py-2">
+        <a href="/" class="brand w-nav-brand w--current inline-block">
+          <img src="@/assets/sunlogo.png" height="55"  alt="" class="inline-block w-12 m-1">
+          <div class="hidden inline-block text-xl ">TRUE SPEC</div>
        </a>
 
        <div class="hidden lg:inline-block  ">

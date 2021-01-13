@@ -20,7 +20,7 @@
 			<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 				<p class="hidden uppercase tracking-loose w-full"> </p>
 				<h1 class="my-2 text-5xl font-bold leading-tight">TRUE SPEC</h1>
-				<h3 class=" text-xl font-bold leading-tight">LED Light Technologies</h3>
+				<h3 class=" text-xl font-bold leading-tight">LED Lighting Technologies</h3>
 				<p class="hidden leading-normal text-2xl mb-8"> </p>
 
 
