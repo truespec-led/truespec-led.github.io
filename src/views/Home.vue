@@ -5,44 +5,9 @@
 
 	<div class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
 
-	<!--Nav-->
-	<nav id="header" class="  w-full z-30 top-0 text-white">
 
-		<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
 
-			<div class="pl-4 flex items-center">
-				<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#">
-
-				   TRUE SPEC
-				</a>
-			</div>
-
-			<!--
-			<div class="block lg:hidden pr-4">
-				<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
-					<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-				</button>
-			</div>
-
-			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
-				<ul class="list-reset lg:flex justify-end flex-1 items-center">
-					<li class="mr-3">
-						<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
-					</li>
-					<li class="mr-3">
-						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-					</li>
-					<li class="mr-3">
-						<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">link</a>
-					</li>
-				</ul>
-				<button id="navAction" class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75">Action</button>
-			</div>
-		-->
-		</div>
-
-		<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
-	</nav>
+	 <Navbar />
 
 
 
@@ -54,7 +19,8 @@
 			<!--Left Col-->
 			<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
 				<p class="hidden uppercase tracking-loose w-full"> </p>
-				<h1 class="my-4 text-5xl font-bold leading-tight">Your plants deserve the best.</h1>
+				<h1 class="my-2 text-5xl font-bold leading-tight">TRUE SPEC</h1>
+				<h3 class=" text-xl font-bold leading-tight">LED Light Technologies</h3>
 				<p class="hidden leading-normal text-2xl mb-8"> </p>
 
 
@@ -91,14 +57,14 @@
 
 	<section class="bg-white border-b py-8">
 		<div class="container max-w-5xl mx-auto m-8">
-			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">True Spec G1800 Gen 3 670w LED</h1>
+			<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">True Spec AL670: 670 Watt LED</h1>
 			<div class="w-full mb-4">
 				<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
 			</div>
 
 			<div class="flex flex-wrap">
 				<div class="w-5/6 sm:w-1/2 p-6">
-					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Designed by Growers in Detroit</h3>
+					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Designed by End Users</h3>
 					<p class="text-gray-600 mb-8">With 5'x 5' coverage and full Kalvin spectrum of 4000, TrueSpec helps you maximize your growth per light.<br /><br />
 
 			 </p>
@@ -202,7 +168,7 @@
 				<div class="w-full sm:w-1/2 p-6 mt-6">
 					<div class="align-middle">
 						<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Use the leading technology</h3>
-						<p class="text-gray-600 mb-8">The Samsung 301H LEDs inside of the G1800 are among the most advanced available today to maximize energy efficiency and minimize your monthly electrical costs.     </p>
+						<p class="text-gray-600 mb-8">The Samsung 301H LEDs inside of the AL670 are among the most advanced available today to maximize energy efficiency and minimize your monthly electrical costs.     </p>
 					</div>
 				</div>
 
@@ -538,11 +504,13 @@ import VueCarousel from 'vue-carousel';
 Vue.use(VueCarousel);
 import { Carousel, Slide } from 'vue-carousel';
 
+import Navbar from './components/Navbar.vue';
+
 
 export default {
   name: 'Home',
   components: {
-		Carousel,Slide
+		Carousel,Slide, Navbar
   },
   data () {
     return {

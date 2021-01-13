@@ -16,6 +16,7 @@
     "vue": "^2.6.6",
     "vue-carousel": "^0.18.0",
     "vue-router": "^3.0.1",
+    "vue-tailwind": "^1.2.6",
     "web3": "^1.2.11"
   },
   "devDependencies": {
