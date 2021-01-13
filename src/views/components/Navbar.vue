@@ -1,8 +1,8 @@
 <template>
   <div data-collapse="small" data-animation="default" data-duration="400" class="navbar w-nav">
     <div class=" bg-transparent " style="min-height:50px;">
-    <div class="container w-container" style="margin 0 auto;">
-      <div class="w-full w-clearfix  py-2">
+    <div class="container w-container" style="margin: 0 auto;">
+      <div class="w-full w-clearfix py-2">
         <a href="/" class="brand w-nav-brand w--current inline-block">
           <img src="@/assets/sunlogo.png" height="55"  alt="" class="inline-block w-12 m-1">
           <div class="hidden inline-block text-xl ">TRUE SPEC</div>

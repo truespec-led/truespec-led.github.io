@@ -65,7 +65,7 @@
 			<div class="flex flex-wrap">
 				<div class="w-5/6 sm:w-1/2 p-6">
 					<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Designed by End Users</h3>
-					<p class="text-gray-600 mb-8">With 5'x 5' coverage and full Kalvin spectrum of 4000, TrueSpec helps you maximize your growth per light.<br /><br />
+					<p class="text-gray-600 mb-8">With 5'x 5' coverage and full Kalvin spectrum of 4000 and compatible with popular Lighting Controllers.<br /><br />
 
 			 </p>
 
